@@ -23,7 +23,7 @@ app.use(bodyParser.json())
 
 // cors
 const corsOptions = {
-  origin: 'https://ykshoji.up.railway.app/',
+  origin: 'https://app.s4md.com/',
 }
 app.use(cors(corsOptions))
 
@@ -49,9 +49,5 @@ app.use('/api', queryRoute)
 
 // errors handle
 app.use(errorHandle)
-
-// app.get('/api', (req, res) => {
-//   res.send('hello');
-// });
 
 export default app
