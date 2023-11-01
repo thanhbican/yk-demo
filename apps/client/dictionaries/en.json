@@ -54,5 +54,36 @@
   "Your order is successful, we will contact you as soon as possible": "Your order is successful, we will contact you as soon as possible",
   "Something went wrong!": "Something went wrong!",
   "Thank you for contacting us, we will respond as soon as possible": "Thank you for contacting us, we will respond as soon as possible",
-  "Related products": "Related products"
+  "Related products": "Related products",
+  "Credit cards": "Credit cards",
+  "Banks nearby": "Banks nearby",
+  "Transfers": "Transfers",
+  "Refunds": "Refunds",
+  "Receipts": "Receipts",
+  "Taxes": "Taxes",
+  "Reports": "Reports",
+  "Payments": "Payments",
+  "ServiceDetail": {
+    "title": "Vehicle Load Capacity Measurement",
+    "description": "We offer vehicle load capacity measurement services with high accuracy and speed.",
+    "pricing": [
+      { "type": "Small truck", "price": "$50" },
+      { "type": "Medium truck", "price": "$80" },
+      { "type": "Big truck", "price": "$100" }
+    ]
+  },
+  "FAQDetail": [
+    {
+      "title": "How many types of trucks are currently available?",
+      "description": "There are currently three types of trucks, including light trucks, medium trucks, and heavy trucks."
+    },
+    {
+      "title": "What tasks are suitable for light trucks?",
+      "description": "Light trucks are often used for transporting goods within the city, delivering to narrow areas, or for tasks involving lightweight cargo transportation."
+    },
+    {
+      "title": "How durable are trucks?",
+      "description": "Trucks are designed to endure heavy loads and harsh operating conditions. However, regular maintenance and upkeep are crucial to ensure the durability and longevity of the vehicle."
+    }
+  ]
 }

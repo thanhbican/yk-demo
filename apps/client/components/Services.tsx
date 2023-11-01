@@ -11,19 +11,21 @@ import {
   IconReport,
 } from '@tabler/icons-react'
 
-const mockData = [
-  { title: 'Cân hàng', icon: IconCreditCard, color: 'violet' },
-  // { title: 'Xe', icon: IconBuildingBank, color: 'indigo' },
-  // { title: 'Transfers', icon: IconRepeat, color: 'blue' },
-  // { title: 'Refunds', icon: IconReceiptRefund, color: 'green' },
-  // { title: 'Receipts', icon: IconReceipt, color: 'teal' },
-  // { title: 'Taxes', icon: IconReceiptTax, color: 'cyan' },
-  // { title: 'Reports', icon: IconReport, color: 'pink' },
-  // { title: 'Payments', icon: IconCoin, color: 'red' },
-  // { title: 'Cashback', icon: IconCashBanknote, color: 'orange' },
-]
+interface ServicesProps {
+  dict: any
+}
 
-const Services = () => {
+const Services: React.FC<ServicesProps> = ({ dict }) => {
+  const mockData = [
+    { title: dict['Credit cards'], icon: IconCreditCard, color: 'violet' },
+    { title: dict['Banks nearby'], icon: IconBuildingBank, color: 'indigo' },
+    { title: dict['Transfers'], icon: IconRepeat, color: 'blue' },
+    { title: dict['Refunds'], icon: IconReceiptRefund, color: 'green' },
+    { title: dict['Receipts'], icon: IconReceipt, color: 'teal' },
+    { title: dict['Taxes'], icon: IconReceiptTax, color: 'cyan' },
+    { title: dict['Reports'], icon: IconReport, color: 'pink' },
+    { title: dict['Payments'], icon: IconCoin, color: 'red' },
+  ]
   const items = mockData.map((item) => (
     <li
       key={item.title}
@@ -38,7 +40,7 @@ const Services = () => {
       <h2 className="text-center text-3xl mb-4">
         <span className="text-blue font-bold">OUR</span> SERVICES
       </h2>
-      <ul className="grid grid-cols-3 md:grid-cols-4 gap-4">{items}</ul>
+      <ul className="grid grid-cols-2 md:grid-cols-4 gap-4">{items}</ul>
     </section>
   )
 }

@@ -14,17 +14,9 @@ const ServicePage: React.FC<ServicePageProps> = async ({
   const dict = await getDictionary(lang)
   const breadcrumbs = [{ title: dict['services'], isDisabled: true }]
   const services = [
-    {
-      title: 'Cân tải trọng xe',
-      description:
-        'Chúng tôi cung cấp dịch vụ cân tải trọng xe với độ chính xác cao và nhanh chóng.',
-      pricing: [
-        { type: 'Xe tải nhỏ', price: '$50' },
-        { type: 'Xe tải trung', price: '$80' },
-        { type: 'Xe tải lớn', price: '$100' },
-      ],
-    },
-    // Các dịch vụ khác có thể thêm vào đây
+    dict['ServiceDetail'],
+    dict['ServiceDetail'],
+    dict['ServiceDetail'],
   ]
   return (
     <>
@@ -36,7 +28,7 @@ const ServicePage: React.FC<ServicePageProps> = async ({
             <div key={index} className="border p-4 rounded-md shadow-md">
               <h2 className="text-xl font-semibold mb-2">{service.title}</h2>
               <p className="mb-4">{service.description}</p>
-              <h3 className="text-lg font-semibold mb-2">Bảng giá</h3>
+              <h3 className="text-lg font-semibold mb-2">{dict['Price']}</h3>
               <ul>
                 {service.pricing.map((item, i) => (
                   <li key={i} className="flex justify-between">

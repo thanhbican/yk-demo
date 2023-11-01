@@ -71,7 +71,7 @@ const page = async ({ params: { lang } }: { params: { lang: Locale } }) => {
             )
         )}
       </section>
-      <Services />
+      <Services dict={dict} />
     </>
   )
 }

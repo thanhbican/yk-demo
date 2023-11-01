@@ -54,5 +54,39 @@
   "Your order is successful, we will contact you as soon as possible": "Đơn hàng của bạn đã được xử lý thành công, chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất",
   "Something went wrong!": "Có điều gì đó đã xảy ra!",
   "Thank you for contacting us, we will respond as soon as possible": "Cảm ơn bạn đã liên hệ với chúng tôi, chúng tôi sẽ phản hồi trong thời gian sớm nhất",
-  "Related products": "Sản phẩm liên quan"
+  "Related products": "Sản phẩm liên quan",
+  "Credit cards": "Thẻ tín dụng",
+  "Banks nearby": "Ngân hàng gần đây",
+  "Transfers": "Chuyển khoản",
+  "Refunds": "Hoàn tiền",
+  "Receipts": "Biên lai",
+  "Taxes": "Thuế",
+  "Reports": "Báo cáo",
+  "Payments": "Thanh toán",
+  "Small truck": "Xe tải nhỏ",
+  "Medium truck": "Xe tải trung",
+  "Big truck": "Xe tải lớn",
+  "ServiceDetail": {
+    "title": "Cân tải trọng xe",
+    "description": "Chúng tôi cung cấp dịch vụ cân tải trọng xe với độ chính xác cao và nhanh chóng.",
+    "pricing": [
+      { "type": "Xe tải nhỏ", "price": "$50" },
+      { "type": "Xe tải trung", "price": "$80" },
+      { "type": "Xe tải lớn", "price": "$100" }
+    ]
+  },
+  "FAQDetail": [
+    {
+      "title": "Có bao nhiêu loại xe tải hiện có?",
+      "description": "Hiện tại có ba loại xe tải, bao gồm xe tải nhẹ, xe tải trung bình và xe tải nặng."
+    },
+    {
+      "title": "Xe tải nhẹ thích hợp cho những công việc nào?",
+      "description": "Xe tải nhẹ thường được sử dụng cho việc vận chuyển hàng hóa trong thành phố, giao hàng tại các khu vực hẹp, hay cho các công việc vận chuyển hàng hóa nhẹ."
+    },
+    {
+      "title": "Xe tải có độ bền như thế nào?",
+      "description": "Xe tải được thiết kế để chịu tải trọng và điều kiện vận hành khắc nghiệt. Tuy nhiên, việc duy trì và bảo dưỡng định kỳ là rất quan trọng để đảm bảo độ bền và tuổi thọ của xe."
+    }
+  ]
 }

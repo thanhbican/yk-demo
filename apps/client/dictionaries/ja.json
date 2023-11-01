@@ -54,5 +54,39 @@
   "Your order is successful, we will contact you as soon as possible": "ご注文いただきありがとうございます。できるだけ早くご連絡させていただきます。",
   "Something went wrong!": "何かがうまくいかなかったようです！",
   "Thank you for contacting us, we will respond as soon as possible": "お問い合わせいただきありがとうございます。できるだけ早くお返事いたします。",
-  "Related products": "関連製品"
+  "Related products": "関連製品",
+  "Credit cards": "クレジットカード",
+  "Banks nearby": "近くの銀行",
+  "Transfers": "送金",
+  "Refunds": "払い戻し",
+  "Receipts": "領収書",
+  "Taxes": "税金",
+  "Reports": "レポート",
+  "Payments": "支払い",
+  "Small truck": "小型トラック",
+  "Medium truck": "中型トラック",
+  "Big truck": "大型トラック",
+  "ServiceDetail": {
+    "title": "車両積載量測定",
+    "description": "高い精度と迅速性を備えた車両積載量測定サービスを提供しています。",
+    "pricing": [
+      { "type": "小型トラック", "price": "$50" },
+      { "type": "中型トラック", "price": "$80" },
+      { "type": "大型トラック", "price": "$100" }
+    ]
+  },
+  "FAQDetail": [
+    {
+      "title": "現在、何種類のトラックが利用可能ですか？",
+      "description": "現在、軽トラック、中型トラック、重量トラックの3種類のトラックが利用可能です。"
+    },
+    {
+      "title": "軽トラックはどんなタスクに適していますか？",
+      "description": "軽トラックはしばしば都市内での商品輸送、狭い地域への配達、軽量貨物の輸送などのタスクに使用されます。"
+    },
+    {
+      "title": "トラックの耐久性はどの程度ですか？",
+      "description": "トラックは重い積載量や過酷な運行条件に耐えるよう設計されています。ただし、定期的なメンテナンスと手入れが耐久性と寿命を保証するために非常に重要です。"
+    }
+  ]
 }

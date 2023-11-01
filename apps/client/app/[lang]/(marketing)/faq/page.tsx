@@ -17,6 +17,7 @@ interface FaqPageProps {
 const FaqPage: React.FC<FaqPageProps> = async ({ params: { lang } }) => {
   const dict = await getDictionary(lang)
   const breadcrumbs = [{ title: dict['FAQ'], isDisabled: true }]
+  const items = dict['FAQDetail']
 
   return (
     <>
@@ -25,7 +26,15 @@ const FaqPage: React.FC<FaqPageProps> = async ({ params: { lang } }) => {
       <section className="container pb-10">
         <h2 className="text-2xl text-center mb-4">{dict['FAQ']}</h2>
         <Accordion type="multiple" className="w-full">
-          <AccordionItem value="item-1">
+          {items.map((item, index) => (
+            <AccordionItem key={index} value={index + ''}>
+              <AccordionTrigger className="text-left">
+                {item.title}
+              </AccordionTrigger>
+              <AccordionContent>{item.description}</AccordionContent>
+            </AccordionItem>
+          ))}
+          {/* <AccordionItem value="item-1">
             <AccordionTrigger className="text-left">
               Có bao nhiêu loại xe tải hiện có?
             </AccordionTrigger>
@@ -53,7 +62,7 @@ const FaqPage: React.FC<FaqPageProps> = async ({ params: { lang } }) => {
               nghiệt. Tuy nhiên, việc duy trì và bảo dưỡng định kỳ là rất quan
               trọng để đảm bảo độ bền và tuổi thọ của xe.
             </AccordionContent>
-          </AccordionItem>
+          </AccordionItem> */}
         </Accordion>
       </section>
     </>

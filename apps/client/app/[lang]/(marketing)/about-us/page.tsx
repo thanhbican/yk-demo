@@ -30,27 +30,27 @@ const AboutUsPage: React.FC<AboutUsPageProps> = async ({
               <th className="w-[10rem] py-4 px-3 border-r">
                 {dict['Address']}
               </th>
-              <td className="py-4 px-3">Ykshoji</td>
+              <td className="py-4 px-3">栃木県, 617-1 Nishikuroda, Oyama, Tochigi 329-0203</td>
             </tr>
             <tr className="border-b">
               <th className="w-[10rem] py-4 px-3 border-r">{dict['TEL']}</th>
-              <td className="py-4 px-3">Ykshoji</td>
+              <td className="py-4 px-3">+81285-39-7893</td>
             </tr>
             <tr className="border-b">
               <th className="w-[10rem] py-4 px-3 border-r">{dict['FAX']}</th>
-              <td className="py-4 px-3">Ykshoji</td>
+              <td className="py-4 px-3">+81285-39-7893</td>
             </tr>
             <tr className="border-b">
               <th className="w-[10rem] py-4 px-3 border-r">
                 {dict['Establishment']}
               </th>
-              <td className="py-4 px-3">Ykshoji</td>
+              <td className="py-4 px-3">2014-06-17</td>
             </tr>
             <tr className="border-b">
               <th className="w-[10rem] py-4 px-3 border-r">
                 {dict['Business details']}
               </th>
-              <td className="py-4 px-3">Ykshoji</td>
+              <td className="py-4 px-3">Demo</td>
             </tr>
             <tr className="border-b">
               <th className="w-[10rem] py-4 px-3 border-r">
